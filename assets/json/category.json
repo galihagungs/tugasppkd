@@ -1,0 +1,17 @@
+[
+    {
+        "slug": "Laptop",
+        "name": "Laptop",
+        "images": "assets/images/laptop.png"
+    },
+    {
+        "slug": "VGA",
+        "name": "VGA",
+        "images": "assets/images/vga.png"
+    },
+    {
+        "slug": "Processor",
+        "name": "Processor",
+        "images": "assets/images/processor.png"
+    }
+]
