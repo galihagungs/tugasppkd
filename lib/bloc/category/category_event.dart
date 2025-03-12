@@ -4,3 +4,8 @@ part of 'category_bloc.dart';
 sealed class CategoryEvent {}
 
 class GetCatetgory extends CategoryEvent {}
+
+class SetDropdownCatetgory extends CategoryEvent {
+  final String? valueData;
+  SetDropdownCatetgory({this.valueData});
+}

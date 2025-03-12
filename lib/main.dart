@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ui_new/bloc/category/category_bloc.dart';
 import 'package:ui_new/bloc/product/product_bloc.dart';
 import 'package:ui_new/pages/homepage.dart';
-import 'package:ui_new/pages/introscreen.dart';
+// import 'package:ui_new/pages/introscreen.dart';
 import 'package:ui_new/pages/loginpage.dart';
 
 void main() {
@@ -27,9 +27,9 @@ class MyApp extends StatelessWidget {
         ),
         // home: const MyHomePage(title: 'Flutter Demo Home Page'),
         routes: {
-          '/': (context) => Introscreen(),
+          '/': (context) => Homepage(),
           '/login': (context) => Loginpage(),
-          '/home': (context) => Homepage(),
+          // '/home': (context) => Homepage(),
         },
       ),
     );

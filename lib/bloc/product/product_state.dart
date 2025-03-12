@@ -14,9 +14,7 @@ final class ProductFailed extends ProductState {
 }
 
 final class ProductSucces extends ProductState {
-  // final ProductModel prod;
   final List<Map<String, dynamic>> map2;
-  // ProductSucces(this.map2);
   ProductSucces(this.map2);
 
   List<Object> get props => [map2];

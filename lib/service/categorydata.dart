@@ -8,7 +8,6 @@ class CatergoryDataJson {
     String jsonString = await rootBundle.loadString(
       'assets/json/category.json',
     );
-    // print(jsonDecode(jsonString));
     return List<Categorymodel>.from(
       jsonDecode(jsonString).map((cat) => Categorymodel.fromJson(cat)),
     );

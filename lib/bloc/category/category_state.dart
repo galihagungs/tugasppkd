@@ -19,3 +19,11 @@ final class CategorySucces extends CategoryState {
 
   List<Object> get props => [cattegory];
 }
+
+final class CategorySuccesDrowDown extends CategoryState {
+  final String valueDrop;
+  final List<Categorymodel> cattegory;
+  CategorySuccesDrowDown(this.valueDrop, this.cattegory);
+
+  List<Object> get props => [valueDrop, cattegory];
+}

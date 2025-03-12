@@ -13,6 +13,10 @@ class CategoryBloc extends Bloc<CategoryEvent, CategoryState> {
         emit(CategoryLoading());
         final data = await CatergoryDataJson().getCategory();
         emit(CategorySucces(data));
+      } else if (event is SetDropdownCatetgory) {
+        emit(CategoryLoading());
+        final data = await CatergoryDataJson().getCategory();
+        emit(CategorySuccesDrowDown(event.valueData ?? '', data));
       }
     });
   }

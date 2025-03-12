@@ -6,5 +6,6 @@ class ProductQuery {
   static const String doubleType = 'DOUBLE NOT NULL';
   static const String id = 'id';
   static const String nama = 'nama';
+  static const String category = 'category';
   static const String quantity = 'quantity';
 }
